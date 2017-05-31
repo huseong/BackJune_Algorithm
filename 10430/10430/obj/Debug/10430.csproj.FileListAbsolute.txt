@@ -1,0 +1,6 @@
+C:\Users\이후성\Desktop\BackJune\10430\10430\bin\Debug\10430.exe.config
+C:\Users\이후성\Desktop\BackJune\10430\10430\bin\Debug\10430.exe
+C:\Users\이후성\Desktop\BackJune\10430\10430\bin\Debug\10430.pdb
+C:\Users\이후성\Desktop\BackJune\10430\10430\obj\Debug\10430.csprojResolveAssemblyReference.cache
+C:\Users\이후성\Desktop\BackJune\10430\10430\obj\Debug\10430.exe
+C:\Users\이후성\Desktop\BackJune\10430\10430\obj\Debug\10430.pdb

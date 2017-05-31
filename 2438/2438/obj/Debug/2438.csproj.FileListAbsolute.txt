@@ -1,0 +1,6 @@
+C:\Users\이후성\Desktop\BackJune\2438\2438\bin\Debug\2438.exe.config
+C:\Users\이후성\Desktop\BackJune\2438\2438\bin\Debug\2438.exe
+C:\Users\이후성\Desktop\BackJune\2438\2438\bin\Debug\2438.pdb
+C:\Users\이후성\Desktop\BackJune\2438\2438\obj\Debug\2438.csprojResolveAssemblyReference.cache
+C:\Users\이후성\Desktop\BackJune\2438\2438\obj\Debug\2438.exe
+C:\Users\이후성\Desktop\BackJune\2438\2438\obj\Debug\2438.pdb

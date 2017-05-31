@@ -1,0 +1,6 @@
+C:\Users\이후성\Desktop\BackJune\10995\10995\bin\Debug\10995.exe.config
+C:\Users\이후성\Desktop\BackJune\10995\10995\bin\Debug\10995.exe
+C:\Users\이후성\Desktop\BackJune\10995\10995\bin\Debug\10995.pdb
+C:\Users\이후성\Desktop\BackJune\10995\10995\obj\Debug\10995.csprojResolveAssemblyReference.cache
+C:\Users\이후성\Desktop\BackJune\10995\10995\obj\Debug\10995.exe
+C:\Users\이후성\Desktop\BackJune\10995\10995\obj\Debug\10995.pdb

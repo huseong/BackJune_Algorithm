@@ -1,0 +1,6 @@
+C:\Users\이후성\Desktop\BackJune\1920\1920\bin\Debug\1920.exe.config
+C:\Users\이후성\Desktop\BackJune\1920\1920\bin\Debug\1920.exe
+C:\Users\이후성\Desktop\BackJune\1920\1920\bin\Debug\1920.pdb
+C:\Users\이후성\Desktop\BackJune\1920\1920\obj\Debug\1920.csprojResolveAssemblyReference.cache
+C:\Users\이후성\Desktop\BackJune\1920\1920\obj\Debug\1920.exe
+C:\Users\이후성\Desktop\BackJune\1920\1920\obj\Debug\1920.pdb

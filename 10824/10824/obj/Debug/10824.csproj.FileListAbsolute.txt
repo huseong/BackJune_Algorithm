@@ -1,0 +1,6 @@
+D:\BackJune\10824\10824\bin\Debug\10824.exe.config
+D:\BackJune\10824\10824\bin\Debug\10824.exe
+D:\BackJune\10824\10824\bin\Debug\10824.pdb
+D:\BackJune\10824\10824\obj\Debug\10824.csprojResolveAssemblyReference.cache
+D:\BackJune\10824\10824\obj\Debug\10824.exe
+D:\BackJune\10824\10824\obj\Debug\10824.pdb

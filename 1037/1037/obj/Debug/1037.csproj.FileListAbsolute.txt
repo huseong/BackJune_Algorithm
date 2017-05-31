@@ -1,0 +1,6 @@
+C:\Users\이후성\Desktop\BackJune\1037\1037\bin\Debug\1037.exe.config
+C:\Users\이후성\Desktop\BackJune\1037\1037\bin\Debug\1037.exe
+C:\Users\이후성\Desktop\BackJune\1037\1037\bin\Debug\1037.pdb
+C:\Users\이후성\Desktop\BackJune\1037\1037\obj\Debug\1037.csprojResolveAssemblyReference.cache
+C:\Users\이후성\Desktop\BackJune\1037\1037\obj\Debug\1037.exe
+C:\Users\이후성\Desktop\BackJune\1037\1037\obj\Debug\1037.pdb
