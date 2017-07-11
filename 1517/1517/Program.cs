@@ -1,45 +1,64 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _1517
 {
     class Program
     {
+        static int answer = 0;
         static void Main(string[] args)
         {
-            int a = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
+            string[] input = Console.ReadLine().Split(' ');
+            int[] inputs = new int[n];
+            for(int i=0; i<n; i++) {
+                inputs[i] = int.Parse(input[i]);
+            }
+            mergeSort(inputs);
+            Console.WriteLine(answer);
+        }
+
+        static int[] copyArray(int[] arr, int startIndex, int size) {
+            int[] array = new int[size];
+            for(int i=0; i<size; i++) {
+                array[i] = arr[startIndex + i];
+            }
+            return array;
+        }
+
+        static int[] merge(int[] arr1, int[] arr2) {
+            int i = 0;
+            int j = 0;
+            int[] returnArray = new int[arr1.Length + arr2.Length];
             int count = 0;
-            string[] n = Console.ReadLine().Split(new char[] { ' ' });
-            int[] b = new int[a];
-            for(int i=0; i<a; i++)
-            {
-                b[i] = int.Parse(n[i]);
-            }//여기까지 데이터 모두 받음
-            int[] list = new int[a];
-            list[0] = b[0];
-            for(int i=1; i<b.Length; i++)
-            {
-                for(int j=i-1; j>=0; j--)
-                {
-                    if(b[i]<list[j])
-                    {
-                        list[j + 1] = list[j];
-                        list[j] = 0;
-                        count++;
-                        if (j == 0)
-                            list[0] = b[i];
+            while(true) {
+                if (arr2.Length == j) {
+                    for (; i < arr1.Length; i++) {
+                        returnArray[count++] = arr1[i];
                     }
-                    else
-                    {
-                        list[j+1] = b[i];
-                        break;
+                    break;
+                }
+                if (arr1.Length == i) {
+                    for (; j<arr2.Length; j++) {
+                        returnArray[count++] = arr2[j];
                     }
+                    break;
+                }
+                if (arr1[i] <= arr2[j]) {
+                    returnArray[count++] = arr1[i++];
+                } else { 
+                    answer += arr1.Length - i;
+                    returnArray[count++] = arr2[j++];
                 }
             }
-            Console.WriteLine(count);
+            return returnArray;
+        }
+
+        static int[] mergeSort(int[] arr) {
+            if(arr.Length > 1) {
+                int mid = arr.Length/2;
+                return merge(mergeSort(copyArray(arr, 0, mid)), mergeSort(copyArray(arr, mid, arr.Length-mid)));
+            }
+            return arr;
         }
     }
 }

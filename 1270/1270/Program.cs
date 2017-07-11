@@ -9,7 +9,6 @@ namespace _1270
         {
             int n = int.Parse(Console.ReadLine());
             long[] nums = new long[n];
-            Console.WriteLine(n);
             for(int i=0; i<n; i++)
             {
                 string[] input = Console.ReadLine().Split(' ');

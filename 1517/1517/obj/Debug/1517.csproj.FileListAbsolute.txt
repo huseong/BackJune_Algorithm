@@ -4,3 +4,9 @@ C:\Users\이후성\Desktop\BackJune\1517\1517\bin\Debug\1517.pdb
 C:\Users\이후성\Desktop\BackJune\1517\1517\obj\Debug\1517.csprojResolveAssemblyReference.cache
 C:\Users\이후성\Desktop\BackJune\1517\1517\obj\Debug\1517.exe
 C:\Users\이후성\Desktop\BackJune\1517\1517\obj\Debug\1517.pdb
+D:\BackJune\1517\1517\bin\Debug\1517.exe.config
+D:\BackJune\1517\1517\obj\Debug\1517.exe
+D:\BackJune\1517\1517\obj\Debug\1517.pdb
+D:\BackJune\1517\1517\bin\Debug\1517.exe
+D:\BackJune\1517\1517\bin\Debug\1517.pdb
+D:\BackJune\1517\1517\obj\Debug\1517.csprojResolveAssemblyReference.cache

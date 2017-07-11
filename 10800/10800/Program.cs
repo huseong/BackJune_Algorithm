@@ -4,33 +4,33 @@ namespace _10800
 {
     class Program
     {
+        class Ball : IComparable<Ball> {
+            public int size;
+            public int eatablesum;
+            public int CompareTo (Ball other) {
+                return size - other.size;
+            }
+        }
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            int[] color = new int[n];
-            int[] size = new int[n];
-            for(int i=0; i<n; i++)
+            Ball[] balls = new Ball[n];
+            Ball[] balls2 = new Ball[n];
+            Ball[][] balls3 = new Ball[n][];
+            for (int i=0; i<n; i++)
             {
                 string[] input = Console.ReadLine().Split(new char[] { ' ' });
-                color[i] = int.Parse(input[0]);
-                size[i] = int.Parse(input[1]);
+                balls[i] = new Ball();
+                balls[i].size = int.Parse(input[1]);
+                balls[i].eatablesum = 0;
+                balls2[i] = balls[i];
+                balls3[int.Parse(input[0])][balls3[int.Parse(input[0])].Length - 1] = balls[i];
             }
-            for(int i=0; i<n; i++)
-            {
-                int eatableSum = 0;
-                for(int j=0; j<n; j++)
-                {
-                    if (i == j)
-                        continue;
-                    if(color[i]!=color[j])
-                    {
-                        if(size[i] > size[j])
-                        {
-                            eatableSum += size[j];
-                        }
-                    }
-                }
-                Console.WriteLine(eatableSum);
+            Array.Sort(balls2);
+            balls2[0].eatablesum = 0;
+            for (int i=1; i<n; i++) {
+                balls2[i].eatablesum = balls2[i-1].eatablesum;
+                Console.WriteLine(balls[i].eatablesum);
             }
         }
     }
