@@ -1,2 +1,0 @@
-C:\Users\이후성\Desktop\BackJune\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-C:\Users\이후성\Desktop\BackJune\2557\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config

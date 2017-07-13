@@ -1,6 +1,0 @@
-C:\Users\이후성\Desktop\BackJune\2501\2501\bin\Debug\2501.exe.config
-C:\Users\이후성\Desktop\BackJune\2501\2501\bin\Debug\2501.exe
-C:\Users\이후성\Desktop\BackJune\2501\2501\bin\Debug\2501.pdb
-C:\Users\이후성\Desktop\BackJune\2501\2501\obj\Debug\2501.csprojResolveAssemblyReference.cache
-C:\Users\이후성\Desktop\BackJune\2501\2501\obj\Debug\2501.exe
-C:\Users\이후성\Desktop\BackJune\2501\2501\obj\Debug\2501.pdb

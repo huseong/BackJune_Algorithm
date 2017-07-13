@@ -1,7 +1,0 @@
-C:\Users\이후성\Desktop\C#문서\10996\10996\bin\Debug\10996.exe.config
-C:\Users\이후성\Desktop\BackJune\10996\10996\bin\Debug\10996.exe.config
-C:\Users\이후성\Desktop\BackJune\10996\10996\bin\Debug\10996.exe
-C:\Users\이후성\Desktop\BackJune\10996\10996\bin\Debug\10996.pdb
-C:\Users\이후성\Desktop\BackJune\10996\10996\obj\Debug\10996.csprojResolveAssemblyReference.cache
-C:\Users\이후성\Desktop\BackJune\10996\10996\obj\Debug\10996.exe
-C:\Users\이후성\Desktop\BackJune\10996\10996\obj\Debug\10996.pdb

@@ -1,6 +1,0 @@
-C:\Users\이후성\Desktop\BackJune\2744\2744\bin\Debug\2744.exe.config
-C:\Users\이후성\Desktop\BackJune\2744\2744\bin\Debug\2744.exe
-C:\Users\이후성\Desktop\BackJune\2744\2744\bin\Debug\2744.pdb
-C:\Users\이후성\Desktop\BackJune\2744\2744\obj\Debug\2744.csprojResolveAssemblyReference.cache
-C:\Users\이후성\Desktop\BackJune\2744\2744\obj\Debug\2744.exe
-C:\Users\이후성\Desktop\BackJune\2744\2744\obj\Debug\2744.pdb

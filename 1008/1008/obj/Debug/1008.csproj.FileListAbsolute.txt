@@ -1,6 +1,0 @@
-C:\Users\이후성\Desktop\C#문서\1008\1008\bin\Debug\1008.exe.config
-C:\Users\이후성\Desktop\C#문서\1008\1008\bin\Debug\1008.exe
-C:\Users\이후성\Desktop\C#문서\1008\1008\bin\Debug\1008.pdb
-C:\Users\이후성\Desktop\C#문서\1008\1008\obj\Debug\1008.csprojResolveAssemblyReference.cache
-C:\Users\이후성\Desktop\C#문서\1008\1008\obj\Debug\1008.exe
-C:\Users\이후성\Desktop\C#문서\1008\1008\obj\Debug\1008.pdb

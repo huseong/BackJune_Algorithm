@@ -1,6 +1,0 @@
-C:\Users\이후성\Desktop\BackJune\1929\1929\bin\Debug\1929.exe.config
-C:\Users\이후성\Desktop\BackJune\1929\1929\bin\Debug\1929.exe
-C:\Users\이후성\Desktop\BackJune\1929\1929\bin\Debug\1929.pdb
-C:\Users\이후성\Desktop\BackJune\1929\1929\obj\Debug\1929.csprojResolveAssemblyReference.cache
-C:\Users\이후성\Desktop\BackJune\1929\1929\obj\Debug\1929.exe
-C:\Users\이후성\Desktop\BackJune\1929\1929\obj\Debug\1929.pdb

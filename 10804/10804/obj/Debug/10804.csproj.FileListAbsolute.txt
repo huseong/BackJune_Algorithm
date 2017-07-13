@@ -1,6 +1,0 @@
-D:\BackJune\10804\10804\bin\Debug\10804.exe.config
-D:\BackJune\10804\10804\bin\Debug\10804.exe
-D:\BackJune\10804\10804\bin\Debug\10804.pdb
-D:\BackJune\10804\10804\obj\Debug\10804.csprojResolveAssemblyReference.cache
-D:\BackJune\10804\10804\obj\Debug\10804.exe
-D:\BackJune\10804\10804\obj\Debug\10804.pdb

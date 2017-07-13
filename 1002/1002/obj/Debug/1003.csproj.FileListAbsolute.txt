@@ -1,7 +1,0 @@
-C:\Users\이후성\Desktop\BackJune\1003\1003\bin\Debug\1003.exe.config
-C:\Users\이후성\Desktop\BackJune\1002\1003\bin\Debug\1003.exe.config
-C:\Users\이후성\Desktop\BackJune\1002\1003\bin\Debug\1003.exe
-C:\Users\이후성\Desktop\BackJune\1002\1003\bin\Debug\1003.pdb
-C:\Users\이후성\Desktop\BackJune\1002\1003\obj\Debug\1003.csprojResolveAssemblyReference.cache
-C:\Users\이후성\Desktop\BackJune\1002\1003\obj\Debug\1003.exe
-C:\Users\이후성\Desktop\BackJune\1002\1003\obj\Debug\1003.pdb

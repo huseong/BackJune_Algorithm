@@ -1,6 +1,0 @@
-C:\Users\이후성\Desktop\BackJune\6502\6502\bin\Debug\6502.exe.config
-C:\Users\이후성\Desktop\BackJune\6502\6502\bin\Debug\6502.exe
-C:\Users\이후성\Desktop\BackJune\6502\6502\bin\Debug\6502.pdb
-C:\Users\이후성\Desktop\BackJune\6502\6502\obj\Debug\6502.csprojResolveAssemblyReference.cache
-C:\Users\이후성\Desktop\BackJune\6502\6502\obj\Debug\6502.exe
-C:\Users\이후성\Desktop\BackJune\6502\6502\obj\Debug\6502.pdb

@@ -1,6 +1,0 @@
-C:\Users\이후성\Desktop\C#문서\2742\2742\bin\Debug\2742.exe.config
-C:\Users\이후성\Desktop\C#문서\2742\2742\bin\Debug\2742.exe
-C:\Users\이후성\Desktop\C#문서\2742\2742\bin\Debug\2742.pdb
-C:\Users\이후성\Desktop\C#문서\2742\2742\obj\Debug\2742.csprojResolveAssemblyReference.cache
-C:\Users\이후성\Desktop\C#문서\2742\2742\obj\Debug\2742.exe
-C:\Users\이후성\Desktop\C#문서\2742\2742\obj\Debug\2742.pdb
