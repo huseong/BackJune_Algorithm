@@ -1,49 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _1463
 {
     class Program
     {
-        static int two(uint n)
-        {
-            int count = 0;
-            while (true)
-            {
-                if (n == 1)
-                    break;
-                if (n % 2 != 0)
-                    return 0;
-                
-                n /= 2;
-                count++;
-            }
-            return count;
-        }
         static void Main(string[] args)
         {
-            uint n = uint.Parse(Console.ReadLine());
-            int i = 0;
-            for(i=0;n>1;i++)
-            {
-                if (two(n) != 0)
-                {
-                    i += two(n);
-                    break;
+            int n = int.Parse(Console.ReadLine());
+            int[] arr = new int[n + 1];
+            arr[0] = 0;
+            arr[1] = 0;
+            for(int i=2; i<=n; i++) {
+                int minValue = 1000001;
+                if(i%3 == 0) {
+                    if (arr[i / 3] < minValue) {
+                        minValue = arr[i / 3];
+                    }
                 }
-                if (n % 3 == 0)
-                    n /= 3;
-                else if ((n - 1) % 3 == 0)
-                    n--;
-                else if (n % 2 == 0)
-                    n /= 2;
-                else
-                    n--;
+                if(i%2 == 0) {
+                    if(arr[i/2] < minValue) {
+                        minValue = arr[i / 2];
+                    }
+                }
+                if(arr[i - 1] < minValue) {
+                    minValue = arr[i - 1];
+                }
+                arr[i] = minValue + 1;
             }
-            Console.Write(i);
+            Console.WriteLine(arr[n]);
         }
     }
 }
