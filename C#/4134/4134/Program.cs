@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _4134
 {
@@ -10,48 +7,59 @@ namespace _4134
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            int ka;
-            List<uint> scan = new List<uint>();
-            for(ka=0; ka<n; ka++)
+            int n = int.Parse(Console.ReadLine()); // 찾아야할 테스트 케이스의 개수
+            uint[] input = new uint[n];
+            for(int k=0; k<n; k++)
             {
-                scan.Add(uint.Parse(Console.ReadLine()));
+                input[k] = uint.Parse(Console.ReadLine());
             }
-            ka--;
-            scan.Sort();
+            Array.Sort(input);
+            uint max = input[input.Length - 1];
             List<uint> list = new List<uint>();
-            list.Add(2);
-            for(uint i=3; i<scan[ka]+20; i+=2)
+            list.Add(0);
+            list.Add(0);
+            max++;
+            int testCount = 0;
+            bool chalk = false;
+            int i = 2;
+            while(true)
             {
-                bool primNum = true;
-                uint iSqrt = (uint)Math.Sqrt(i);
-                int listLeg = list.Count;
-                for(int j=0; list[j]<=iSqrt; j++)
+                if(i == input[testCount])
                 {
-                    if(i%list[j]==0)
+                    chalk = true;
+                }
+                bool check = true;
+                for(int j=2; j<=Math.Sqrt(i); j++)
+                {
+                    if(list[j]==0)
                     {
-                        primNum = false;
+                        continue;
+                    }
+                    if(i%j==0)
+                    {
+                        check = false;
                         break;
                     }
                 }
-                if(primNum)
+                if (check)
                 {
-                    list.Add(i);
+                    list.Add(1);
+                    if(chalk)
+                    {
+                        chalk = false;
+                        Console.WriteLine(i);
+                        testCount++;
+                        if (testCount == n)
+                        {
+                            break;
+                        }
+                    }
                 }
-            }
-            int scanCount = scan.Count;
-            int listleg = list.Count;
-            int lo = 0;
-            for (int j = 0; j < listleg; j++)
-            {
-                if (list[j] > scan[lo])
+                else
                 {
-                    Console.Write(list[j] + "\n");
-                    if (lo < scanCount-1)
-                        lo++;
-                    else
-                        break;
+                    list.Add(0);
                 }
+                i++;
             }
         }
     }
