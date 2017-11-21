@@ -4,33 +4,33 @@ namespace _2156 {
     class Program {
         static void Main(string[] args) {
             int n = int.Parse(Console.ReadLine());
-            int count = 0;
-            int[] jans = new int[n];
+            int[] arr = new int[n];
             for (int i = 0; i < n; i++) {
-                jans[i] = int.Parse(Console.ReadLine());
+                arr[i] = int.Parse(Console.ReadLine());
             }
-            for (int i = 0; i < n && i < 3; i++) {
-                count += jans[i];
+            int[] Dp = new int[n];
+            if (n == 1) {
+                Console.WriteLine(arr[0]);
+            } else if (n == 2) {
+                Console.WriteLine(arr[0] + arr[1]);
+            } else {
+                Dp[0] = arr[0];
+                Dp[1] = arr[1] + Dp[0];
+                Dp[2] = chicken(Dp[1], Dp[0] + arr[2], arr[1] + arr[2]);
+                for (int i = 3; i < n; i++) {
+                    Dp[i] = chicken(Dp[i - 1], Dp[i - 2] + arr[i], arr[i] + arr[i - 1] + Dp[i - 3]);
+                }
+                Console.WriteLine(Dp[n - 1]);
             }
-            if (n > 3) {
-                int checkIndex = 3;
-                int backUsing = 3;
-                while (checkIndex < n) {
-                    if (backUsing > 2) {
-                        if (jans[checkIndex] > jans[checkIndex - 3]) {
-                            count -= jans[checkIndex - 3];
-                            count += jans[checkIndex];
-                        } else {
-                            backUsing = 0;
-                        }
-                    } else {
-                        backUsing++;
-                        count += jans[checkIndex];
-                    }
-                    checkIndex++;
+        }
+        static int chicken(params int[] arr) {
+            int max = int.MinValue;
+            for (int i = 0; i < arr.Length; i++) {
+                if (arr[i] > max) {
+                    max = arr[i];
                 }
             }
-            Console.WriteLine(count);
+            return max;
         }
     }
 }
