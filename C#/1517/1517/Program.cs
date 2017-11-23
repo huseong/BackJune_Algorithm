@@ -4,7 +4,7 @@ namespace _1517
 {
     class Program
     {
-        static int answer = 0;
+        static ulong _answer = 0;
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
@@ -14,7 +14,7 @@ namespace _1517
                 inputs[i] = int.Parse(input[i]);
             }
             mergeSort(inputs);
-            Console.WriteLine(answer);
+            Console.WriteLine(_answer);
         }
 
         static int[] copyArray(int[] arr, int startIndex, int size) {
@@ -46,7 +46,7 @@ namespace _1517
                 if (arr1[i] <= arr2[j]) {
                     returnArray[count++] = arr1[i++];
                 } else { 
-                    answer += arr1.Length - i;
+                    _answer += (ulong)(arr1.Length - i);
                     returnArray[count++] = arr2[j++];
                 }
             }
